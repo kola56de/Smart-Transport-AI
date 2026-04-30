@@ -136,3 +136,45 @@ Smart-Transport-AI/
 │   │── Dashboard.png
 │   │── Key.png
 │   │── Mode.png
+
+---
+⚙️ Installation Guide
+
+Clone the repository:
+git clone https://github.com/yourusername/Smart-Transport-AI.git
+cd Smart-Transport-AI
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the application:
+streamlit run app1.py
+
+---
+
+## 📌 Use Case Applications
+
+- Smart Mobility Systems  
+- Urban Transport Planning  
+- AI Decision Support  
+- Public Transport Optimization  
+- Traffic Policy Simulation  
+- Sustainable Transportation Research  
+
+---
+
+## 📈 Future Improvements
+
+- Real-time Traffic API Integration  
+- Route Recommendation System  
+- Fare Prediction Engine  
+- GPS Tracking Integration  
+- Public Transport Demand Forecasting  
+- Power BI Dashboard Version  
+
+---
+
+## 👨‍💻 Author
+
+**Kolade Olonisakin**  
+Data Scientist | Machine Learning Engineer | AI Enthusiast

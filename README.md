@@ -141,14 +141,20 @@ Smart-Transport-AI/
 ⚙️ Installation Guide
 
 Clone the repository:
+```bash
 git clone https://github.com/yourusername/Smart-Transport-AI.git
 cd Smart-Transport-AI
-
+```
+---
 Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
+---
 Run the application:
+```bash
 streamlit run app1.py
+```
 
 ---
 

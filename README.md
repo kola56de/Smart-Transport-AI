@@ -84,11 +84,12 @@ The dashboard provides valuable insights such as:
 ### Dashboard View
 ![Dashboard](assets/Dashboard.png)
 
+### Prediction Output
+![Prediction](assets/Mode.png)
+
 ### Key Insights Section
 ![Insights](assets/Key.png)
 
-### Prediction Output
-![Prediction](assets/Mode.png)
 
 ---
 

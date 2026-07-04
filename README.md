@@ -1,131 +1,167 @@
 # 🚍 Smart Transport AI
 
-An intelligent **Machine Learning-powered transport recommendation system** built with **Streamlit** that predicts the most suitable transportation mode (**Bus, Car, or Taxi**) based on user inputs such as income, waiting time, travel time, and age.
+An intelligent **Machine Learning-powered transport recommendation system** built with **Python, Streamlit, and Scikit-learn** that predicts the most suitable mode of transportation (**Public Bus, Private Car, or Taxi**) based on user characteristics and travel conditions.
 
-Designed to support **smart mobility decisions**, improve urban transport planning, and demonstrate the use of AI in real-world transportation systems.
+This project demonstrates how **Artificial Intelligence, Machine Learning, and Data Analytics** can support smarter mobility decisions, improve urban transport planning, and provide intelligent decision support for sustainable transportation systems.
 
 ---
 
-## 🌐 Live App
+# 🌐 Live Application
 
 🔗 https://smart-transport-ai-ysslocirwyd9m9vnkwnov4.streamlit.app/
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-Urban transportation decisions depend on multiple factors such as affordability, convenience, and travel efficiency.
+Choosing the most suitable mode of transportation depends on several factors including affordability, waiting time, travel time, and socioeconomic characteristics.
 
-This application uses **Machine Learning classification** to recommend the best transport option for users based on:
+This application uses Machine Learning to recommend the most appropriate transportation mode based on:
 
-- Monthly Income  
-- Waiting Time  
-- Travel Time  
-- Age  
+- Monthly Income
+- Waiting Time
+- Travel Time
+- Age
 
-The system predicts one of the following:
+The system predicts one of the following transport options:
 
-- 🚍 Public Bus  
-- 🚗 Private Car  
-- 🚕 Taxi  
+- 🚌 Public Bus
+- 🚗 Private Car
+- 🚕 Taxi
 
----
-
-## 🚀 Features
-
-### 📊 Dataset Overview
-
-Displays a transport dataset containing:
-
-- Waiting Time  
-- Travel Time  
-- Age  
-- Income  
-- Preferred Mode of Transport  
+The project demonstrates how AI can assist commuters, transport planners, and policy makers in making more informed transportation decisions.
 
 ---
 
-### 📈 Mode Distribution Visualization
+# 🚀 Key Features
 
-Interactive bar chart showing transport mode frequency:
+## 📊 Dataset Explorer
 
-- Bus  
-- Car  
-- Taxi  
+Explore a transportation dataset containing:
 
----
-
-### 🔮 AI Prediction Panel
-
-Users can input:
-
-- Monthly Income  
-- Waiting Time  
-- Travel Time  
-- Age  
-
-And instantly receive the recommended transport mode.
+- Monthly Income
+- Waiting Time
+- Travel Time
+- Age
+- Preferred Transport Mode
 
 ---
 
-### 📌 Key Insights Section
+## 📈 Transport Mode Distribution
 
-The dashboard provides valuable insights such as:
+Interactive visualization showing the distribution of:
 
-- Higher income users tend to prefer private cars  
-- Longer waiting times reduce bus usage  
-- Travel time influences transport decisions  
-- Better bus systems can reduce private car usage  
+- Public Bus
+- Private Car
+- Taxi
+
+This provides insight into travel behaviour across different user groups.
 
 ---
 
-## 🖼️ Project Screenshots
+## 🤖 AI Transport Recommendation
 
-### Dashboard View
+Users enter:
+
+- Monthly Income
+- Waiting Time
+- Travel Time
+- Age
+
+The application instantly recommends the most suitable transport option.
+
+---
+
+## 📌 Intelligent Decision Insights
+
+The application highlights important transportation insights, including:
+
+- Higher-income users are more likely to choose private cars.
+- Longer waiting times reduce the attractiveness of public buses.
+- Travel time strongly influences transport choice.
+- Improving public transport services can encourage a shift away from private vehicles.
+
+---
+
+# 📸 Application Screenshots
+
+## 🖥️ Dashboard
+
 ![Dashboard](assets/Dashboard.png)
 
-### Prediction Output
+---
+
+## 🤖 AI Recommendation
+
 ![Prediction](assets/Mode.png)
 
-### Key Insights Section
+---
+
+## 📊 Decision Insights
+
 ![Insights](assets/Key.png)
 
+---
+
+# 🧠 Machine Learning Model
+
+## Algorithm
+
+**Random Forest Classifier**
+
+### Input Features
+
+- Monthly Income
+- Waiting Time
+- Travel Time
+- Age
+
+### Predicted Output
+
+- Recommended Mode of Transport
+
+  - Public Bus
+  - Private Car
+  - Taxi
 
 ---
 
-## 🛠️ Tech Stack
+# 📊 Model Development & Key Learning
 
-- Python  
-- Streamlit  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Random Forest Classifier  
+This project was developed as a prototype to demonstrate the integration of **Machine Learning, interactive analytics, and decision-support systems** within a transportation application.
 
----
+Rather than focusing solely on prediction accuracy, the objective was to build a complete AI-powered system that enables users to explore transportation data, understand travel behaviour, and receive intelligent transport recommendations through an interactive Streamlit dashboard.
 
-## 🤖 Machine Learning Model
+One important lesson from this project is that successful Machine Learning solutions depend on more than selecting an algorithm.
 
-**Algorithm Used:** Random Forest Classifier
+> **The quality, diversity, and representativeness of the training data are equally important for producing reliable and generalizable predictions.**
 
-The model was trained to classify transport mode based on user behavior and socioeconomic features.
+Future versions of this application will include larger datasets, additional socioeconomic variables, real-world transportation data, and comparisons of multiple classification algorithms to further improve prediction performance.
 
-### Input Features:
+This project demonstrates the successful integration of:
 
-- Income  
-- Waiting Time  
-- Travel Time  
-- Age  
-
-### Target Variable:
-
-- Mode of Transport  
+- Machine Learning Classification
+- Interactive Data Visualization
+- Transportation Decision Support
+- Streamlit Web Deployment
+- Smart Mobility Analytics
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Technology Stack
 
-```bash
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Random Forest Classifier
+
+---
+
+# 📂 Project Structure
+
+```text
 Smart-Transport-AI/
 │── app1.py
 │── data.csv
@@ -133,56 +169,84 @@ Smart-Transport-AI/
 │── requirements.txt
 │── README.md
 │── assets/
-│   │── Dashboard.png
-│   │── Key.png
-│   │── Mode.png
-
+│   ├── Dashboard.png
+│   ├── Key.png
+│   └── Mode.png
 ```
 
 ---
-⚙️ Installation Guide
 
-Clone the repository:
+# ⚙️ Installation
+
+## Clone Repository
+
 ```bash
-git clone https://github.com/yourusername/Smart-Transport-AI.git
+git clone https://github.com/kola56de/Smart-Transport-AI.git
+
 cd Smart-Transport-AI
 ```
----
-Install dependencies:
+
+## Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
----
-Run the application:
+
+## Run the Application
+
 ```bash
 streamlit run app1.py
 ```
 
 ---
 
-## 📌 Use Case Applications
+# 🎯 Use Cases
 
-- Smart Mobility Systems  
-- Urban Transport Planning  
-- AI Decision Support  
-- Public Transport Optimization  
-- Traffic Policy Simulation  
-- Sustainable Transportation Research  
-
----
-
-## 📈 Future Improvements
-
-- Real-time Traffic API Integration  
-- Route Recommendation System  
-- Fare Prediction Engine  
-- GPS Tracking Integration  
-- Public Transport Demand Forecasting  
-- Power BI Dashboard Version  
+- Smart Mobility Systems
+- Transportation Decision Support
+- Urban Transport Planning
+- Sustainable Mobility Research
+- Public Transport Optimization
+- AI-Based Transport Recommendation
+- Transportation Policy Analysis
 
 ---
 
-## 👨‍💻 Author
+# 📈 Future Improvements
 
-**Kolade Olonisakin**  
-Data Scientist | Machine Learning Engineer | AI Enthusiast
+- Real-Time Traffic API Integration
+- Intelligent Route Recommendation
+- Fare Prediction Engine
+- GPS Tracking Integration
+- Public Transport Demand Forecasting
+- Power BI Executive Dashboard
+- Mobile Application
+- Multi-City Transport Recommendation
+
+---
+
+# 👨‍💻 Author
+
+## **Engr. Dr. Kolade Olonisakin, FNSE**
+
+**Civil Engineer | Data Scientist | Machine Learning Engineer | AI Engineer | Transportation & GIS Analytics**
+
+🌍 **Portfolio**
+
+https://olonisakin-emmanuel.github.io/OlonisakinEmmanuel.github.io/
+
+💼 **LinkedIn**
+
+https://www.linkedin.com/in/engr-dr-kolade-olonisakin-fnse/
+
+💻 **GitHub**
+
+https://github.com/kola56de
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
+
+Feedback, suggestions, and collaboration opportunities are always welcome.
